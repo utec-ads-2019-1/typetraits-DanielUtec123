@@ -27,6 +27,7 @@ void Tester::execute() {
         ASSERT(isSorted(integers), "The integers list has problems");
         ASSERT(isSorted(floats), "The floats list has problems");
     }
+
 }
 
 template <typename T>
